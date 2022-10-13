@@ -1,7 +1,7 @@
 # nimib-playground
 An experiment at creating a playground-like experience for creating one-off nimibs.
 
-This was inspired by a [forum post](https://forum.nim-lang.org/t/9517#62551) by forum user dlesnoff:
+This was inspired by a [forum post](https://forum.nim-lang.org/t/9517#62551) by forum user @dlesnoff:
 > If you want, I can make a nimib for that, I just do not have a blog/webserver to publish and share it.
 
 This is the first time I've seen `a nimib` being used as a noun :D. But it also shows that it isn't straightforward to
