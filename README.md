@@ -42,5 +42,7 @@ After running this, it will move the folder to `docs/`, commit it and push it to
 
 > It may take a few minutes until Github Pages has updated the page.
 
+An example of a link is [https:/hugogranstrom.github.io/nimib-playground/test--2022-10-13--12-16-39](https:/hugogranstrom.github.io/nimib-playground/test--2022-10-13--12-16-39).
+
 ## Feedback
 If you have any ideas for how to improve this, I'm all ears 👂️
