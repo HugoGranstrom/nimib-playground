@@ -19,7 +19,7 @@ task newNimib, "Create a new nimib":
   for i in 0 .. commands.high:
     if nimIdentNormalize("newNimib") == nimIdentNormalize(commands[i]):
       argumentsStart = i + 1
-  echo argumentsStart, " ", commands.high
+
   if argumentsStart > commands.high:
     assert false, "No folder name was given! Usage: nimble newNimib folderPrefix"
   var folderPrefix = commands[argumentsStart]
@@ -66,7 +66,7 @@ task publishNimib, "Publishes a nimib to your personal nimib playground":
     # Add check here that index.html exists!
     let folderName = matchedFolders[0]
     if not fileExists("drafts" / folderName / "index.html"):
-    echo "File is not built! Building index.nim..."
+      echo "File is not built! Building index.nim..."
       exec "nim r " & "drafts" / folderName / "index.nim"
     let destFolder = "docs" / folderName
     mvDir("drafts" / folderName, destFolder)
